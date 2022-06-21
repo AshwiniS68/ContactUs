@@ -1,0 +1,112 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:"Roboto";
+    display: fkex;
+    margin-top:100px;
+    justify-content: center;
+    height:100vh;
+    background:#98FB98;
+    text-align:center;
+}
+
+h1{
+    padding:16px;
+    font-size:22px;
+    color:black;
+    text-align: center;
+}
+
+/*Form*/
+
+form{
+    text-align: center;
+}
+
+.main-form{
+    background:#DDA0DD;
+    padding:20px 12px;
+    text-align: center;
+}
+
+.form-group{
+    position: relative;
+    margin-bottom:28px;
+    text-align: center;
+}
+
+.gt-input {
+    width:400px;
+    height:48px;
+    padding:0 20px;
+    font-size:20px;
+    border:0;
+}
+
+.gt-text {
+    padding:10px 20px;
+    height:100px;
+    width:400px;
+}
+
+.gt-input:focus {
+    outline:none;
+}
+
+label {
+    position: absolute;
+    font-size:18px;
+    color:#aaa;
+    transition: all .4s;
+    top:24px;
+    transform:translateY(-50%);
+    margin-left:24px;
+    cursor:text;
+}
+
+.gt-button {
+    width:400px;
+    height:60px;
+    font-size:20px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    border:0;
+    color: white;
+    text-align:center;
+    background:#2E8B57;
+    transition:.4s;
+    cursor: pointer;
+    text-align: center;
+}
+
+.gt-button:hover {
+    background:#6B8E23;
+}
+
+.move-up {
+    margin-top:-32px;
+    margin-left:0px;
+    font-size:14px;
+    background:#ff0000;
+    border-radius:8px 0;
+    color:white;
+    padding:4px 8px;
+    min-width:100px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
